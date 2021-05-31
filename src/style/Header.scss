@@ -1,0 +1,66 @@
+.header{
+    width: 100%;
+    background-color: rgb(6, 1, 29);
+    color: white;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    &__logo{
+        width: 100px;
+        margin: 0 20px;
+        margin-top: 15px;
+        object-fit: contain;
+    }
+    &__search{
+        display: flex;
+        align-items: center;
+        height: 30px;
+        flex: 1;
+        &--input{
+            height: 12px;
+            padding: 10px;
+            width: 100%;
+            outline: none;
+            border: none;
+        }
+        &--icon{
+            padding: 5px;
+            height: 22px !important;
+            background-color: rgb(223, 145, 0);
+        }
+    }
+    &__nav{
+        display: flex;
+        margin: 0 10px;
+        .linetwo{
+            font-size: 18px;
+            font-weight: 500;
+            height: min-content;
+        }
+        &--option{
+            margin: 0 10px;
+            line-height: 17px;
+            .lineone{
+                font-size: 12px;
+            }
+        }
+        &--optionbasket{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .count{
+                margin: 0 10px;
+            }
+        }
+        a{
+            color: white !important;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+}
